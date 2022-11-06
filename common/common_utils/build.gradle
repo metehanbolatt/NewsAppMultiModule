@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.metehanbolat.news_presentation'
+    namespace 'com.metehanbolat.common_utils'
     compileSdk 33
 
     defaultConfig {
@@ -31,8 +31,6 @@ android {
 }
 
 dependencies {
-
-    implementation project(":common:common_utils")
 
     implementation Dependencies.core
     implementation Dependencies.appCompat
